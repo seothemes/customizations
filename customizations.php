@@ -98,7 +98,7 @@ function customizations_include_template( $template ) {
 
 	$file = __DIR__ . '/templates/' . get_post_meta( $post->ID, '_wp_page_template', true );
 
-	if ( file_exists( $file ) ) {
+	if ( file_exists( $file ) && __DIR__ . '/templates/' !== $file  ) {
 		return $file;
 	}
 
