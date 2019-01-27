@@ -47,7 +47,7 @@ $custom_templates = array(
 
 ## Custom Scripts
 
-Custom JavaScript should be placed in the **custom-scripts.css** file. There is an example function provided in this file.
+Custom JavaScript should be placed in the **custom-scripts.js** file. There is an example function provided in this file.
 
 ## Custom Styles
 
